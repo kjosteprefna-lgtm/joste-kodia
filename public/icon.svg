@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#081c15" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#f77f00" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <!-- Circle accent -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#2d6a4f" stroke-width="8" stroke-dasharray="16 12" />
+  <!-- Croissant / Bakery silhouette -->
+  <path d="M160 310 C 130 270, 140 200, 200 160 C 240 130, 290 130, 320 160 C 370 200, 380 270, 352 310 C 330 340, 300 330, 280 300 C 265 280, 247 280, 232 300 C 212 330, 182 340, 160 310 Z" fill="url(#goldGrad)" />
+  <path d="M210 185 C 230 165, 270 165, 302 185" stroke="#99582a" stroke-width="10" stroke-linecap="round" fill="none" />
+  <path d="M185 240 C 210 220, 290 220, 327 240" stroke="#99582a" stroke-width="10" stroke-linecap="round" fill="none" />
+  <!-- POS Cash Badge -->
+  <rect x="186" y="340" width="140" height="50" rx="25" fill="#52b788" />
+  <text x="256" y="374" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">FCFA</text>
+</svg>

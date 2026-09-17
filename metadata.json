@@ -1,0 +1,6 @@
+{
+  "name": "Les Délices de Maman (POS)",
+  "description": "Application mobile de caisse tactile, gestion des stocks, achats de matières premières, scan codes-barres caméra et calcul des bénéfices nets en FCFA.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
